@@ -10,7 +10,15 @@ var portfolioApp = {};
       });
 
       $routeProvider.when('/about', {
-        templateUrl: 'templates/about-me.html'
+        templateUrl: 'templates/about-me/short-biography.html'
+      });
+
+      $routeProvider.when('/about/biography', {
+        templateUrl: 'templates/about-me/short-biography.html'
+      });
+
+      $routeProvider.when('/about/letter', {
+        templateUrl: 'templates/about-me/cover-letter.html'
       });
 
       $routeProvider.otherwise({
