@@ -16,14 +16,8 @@
   <!-- right panel -->
   <section class="col-md-9">
     <h1>Sketching</h1>
-    <div ng-controller="SketchingController" lightbox>
-      <div class="row">
-        <div class="col-sm-3 col-md-3 gallery" ng-repeat="sketch in sketches" >
-          <a href="img/sketches/{{sketch.id}}-small.jpg" title="{{sketch.title}}" class="thumbnail">
-            <img ng-src="img/sketches/{{sketch.id}}-thm.jpg" />
-          </a>
-        </li>
-      </ul>
+    <div ng-controller="SketchingController">
+      <div gallery gallery-images="sketches" />
     </div>
   </section>
 </div>
