@@ -16,14 +16,11 @@
   <!-- right panel -->
   <section class="col-md-9">
     <h1>Sketching</h1>
-    <div ng-controller="SketchingController" ng-init="configureLightbox()">
+    <div ng-controller="SketchingController" lightbox>
       <div class="row">
-        <div class="col-sm-3 col-md-3" ng-repeat="sketch in sketches">
-          <a href="" class="thumbnail">
-            <img ng-src="{{sketch.thumbnail}}" title="{{sketch.title}}" data-lightbox="image-{{sketch.id}}" />
-            <div class="caption">
-              <h3>{{sketch.title}}</h3>
-            </div>
+        <div class="col-sm-3 col-md-3 gallery" ng-repeat="sketch in sketches" >
+          <a href="img/sketches/{{sketch.id}}-small.jpg" title="{{sketch.title}}" class="thumbnail">
+            <img ng-src="img/sketches/{{sketch.id}}-thm.jpg" />
           </a>
         </li>
       </ul>

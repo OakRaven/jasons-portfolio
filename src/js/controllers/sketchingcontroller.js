@@ -6,44 +6,25 @@
       $scope.sketches = [
         {
           id: 1,
-          thumbnail: 'http://placekitten.com/200/150',
-          fullsize:  'http://placekitten.com/800/600',
-          title:     'Silent Hill Nurse',
-          description: 'Awesome picture!'
+          title: 'Amazing Spiderman'
         },
         {
           id: 2,
-          thumbnail: 'http://placekitten.com/200/150',
-          fullsize:  'http://placekitten.com/800/600',
-          title:     'Silent Hill Nurse',
-          description: 'Awesome picture!'
+          title: 'Lucky Franco'
         },
         {
           id: 3,
-          thumbnail: 'http://placekitten.com/200/150',
-          fullsize:  'http://placekitten.com/800/600',
-          title:     'Silent Hill Nurse',
-          description: 'Awesome picture!'
+          title: 'Buffy the Vampire Slayer character.'
         },
         {
           id: 4,
-          thumbnail: 'http://placekitten.com/200/150',
-          fullsize:  'http://placekitten.com/800/600',
-          title:     'Silent Hill Nurse',
-          description: 'Awesome picture!'
+          title: 'Silent Hill Nurse'
         },
         {
           id: 5,
-          thumbnail: 'http://placekitten.com/200/150',
-          fullsize:  'http://placekitten.com/800/600',
-          title:     'Silent Hill Nurse',
-          description: 'Awesome picture!'
+          title: 'Evil Angel'
         }
       ];
-
-      $scope.configureLightbox = function(){
-      //  $.light
-      };
     }
   );
 
